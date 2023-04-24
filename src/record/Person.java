@@ -6,23 +6,26 @@ public class Person {
     //Maxを返すメソッド
     public static int AgeMax(person[] persons){
         var max = persons[0].age;
+        var index = 0;
         for(var i = 0; i < persons.length; i++){
             if(max < persons[i].age){
                 max = persons[i].age;
+                index = i;
             }
         }
-        return max;
+        return index;
     }
 
     //Minを返すメソッド
     public static int AgeMin(person[] persons){
         var min = persons[0].age;
+        var index = 0;
         for(var i = 0; i < persons.length; i++){
             if(min > persons[i].age){
                 min = persons[i].age;
             }
         }
-        return min;
+        return index;
     }
 
     public static int[] BabbleSort(person[] persons){

@@ -11,9 +11,8 @@ public class PersonTest {
                 new Person.person("金","キン",0)
         };
 
-
         //最年少と最年長を表示
-        System.out.println("最年小 " + Person.AgeMin(persons) + " 最年長 " + Person.AgeMax(persons));
+        System.out.println("最年小 " +persons[Person.AgeMin(persons)].name()  + " 最年長 " + persons[Person.AgeMax(persons)]);
 
         //ソートされた配列を表示
         int[] ageSort = new int[persons.length];
