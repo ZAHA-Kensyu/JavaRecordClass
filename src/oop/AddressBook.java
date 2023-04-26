@@ -10,4 +10,8 @@ public class AddressBook {
         this.tel = tel;
         this.email = email;
     }
+
+    public  String GetString(){
+        return this.name+"/"+ this.tel+"/"+this.email;
+    }
 }

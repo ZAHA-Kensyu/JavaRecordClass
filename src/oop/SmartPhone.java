@@ -42,4 +42,10 @@ public class SmartPhone {
     public void displayAppList(){
         System.out.println(apps);
     }
+
+//    public getAddressBook(){
+//        for (int i = 0; i < addressBooks.length; i++) {
+//                System.out.println(addressBooks[i].);
+//        }
+//    }
 }
