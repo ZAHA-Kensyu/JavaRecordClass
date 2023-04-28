@@ -24,7 +24,7 @@ public class ListPractice {
                 inputFlg = false;
             }
         }while (inputFlg);
-        
+
         System.out.println("最初に登録された"+lists.get(0));
         System.out.println("最後に登録された"+lists.get(lists.size()-1));
 
